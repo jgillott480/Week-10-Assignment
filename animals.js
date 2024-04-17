@@ -1,4 +1,5 @@
-// This method retrieves the form element. While the addEventListener executes when the submit button is pressed.
+// This method retrieves the form element. While the addEventListener executes 
+// when the submit button is pressed.
 document.getElementById("animalForm").addEventListener("submit", function(event){
     event.preventDefault(); // Prevent the form from submitting
 
